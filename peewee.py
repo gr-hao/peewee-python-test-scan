@@ -158,6 +158,7 @@ except ImportError:
 logger = logging.getLogger('peewee')
 logger.addHandler(NullHandler())
 
+print("xxx") 
 
 if sys.version_info[0] == 2:
     text_type = unicode
