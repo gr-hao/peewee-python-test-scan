@@ -191,7 +191,8 @@ else:
             raise value.with_traceback(tb)
         raise value
 
-
+print("xyz") 
+        
 if sqlite3:
     sqlite3.register_adapter(decimal.Decimal, str)
     sqlite3.register_adapter(datetime.date, str)
