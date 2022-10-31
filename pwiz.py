@@ -51,6 +51,8 @@ def make_introspector(database_type, database_name, **kwargs):
     db = DatabaseClass(database_name, **kwargs)
     return Introspector.from_database(db, schema=schema)
 
+print("abc") 
+
 def print_models(introspector, tables=None, preserve_order=False,
                  include_views=False, ignore_unknown=False, snake_case=True):
     database = introspector.introspect(table_names=tables,
