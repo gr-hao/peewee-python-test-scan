@@ -8,6 +8,7 @@ import unittest
 
 USER = os.environ.get('USER') or 'root'
 
+print("xxx") 
 
 def runtests(suite, verbosity=1, failfast=False):
     runner = unittest.TextTestRunner(verbosity=verbosity, failfast=failfast)
