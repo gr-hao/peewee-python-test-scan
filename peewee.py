@@ -32,6 +32,8 @@ except ImportError:
         from pysqlite2 import dbapi2 as pysq3
     except ImportError:
         pysq3 = None
+        
+xxx
 try:
     import sqlite3
 except ImportError:
