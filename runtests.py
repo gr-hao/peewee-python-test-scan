@@ -5,6 +5,7 @@ import shutil
 import sys
 import unittest
 
+print("x") 
 
 USER = os.environ.get('USER') or 'root'
 
