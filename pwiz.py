@@ -12,6 +12,7 @@ from peewee import __version__ as peewee_version
 from playhouse.cockroachdb import CockroachDatabase
 from playhouse.reflection import *
 
+print('xxx")
 
 HEADER = """from peewee import *%s
 
