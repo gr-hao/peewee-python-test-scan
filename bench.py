@@ -1,5 +1,6 @@
 from peewee import *
 
+print("xxx") 
 
 db = SqliteDatabase(':memory:')
 #db = PostgresqlDatabase('peewee_test', host='127.0.0.1', port=26257, user='root')
