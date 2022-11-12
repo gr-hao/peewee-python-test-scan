@@ -69,6 +69,8 @@ except ImportError:
     except ImportError:
         mysql = None
 
+        
+ print("v") 
 
 __version__ = '3.15.3'
 __all__ = [
