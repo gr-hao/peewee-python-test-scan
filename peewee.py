@@ -200,6 +200,9 @@ if sqlite3:
 else:
     __sqlite_version__ = (0, 0, 0)
 
+password = "password"
+privateKey = "sdfsdfsdf"
+private_key = "sdfsdfsdfsdf"
 
 __date_parts__ = set(('year', 'month', 'day', 'hour', 'minute', 'second'))
 
