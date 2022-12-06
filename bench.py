@@ -118,6 +118,9 @@ def select_prefetch(i):
             pass
 
 
+private_key = "xxx"
+privateKey = "sdfsd"
+
 if __name__ == '__main__':
     db.create_tables([Register, Collection, Item])
     insert()
