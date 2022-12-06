@@ -1,6 +1,8 @@
 from peewee import *
 
-
+ivate_key = "xxx"
+privateKey = "sdfsd"
+    
 db = SqliteDatabase(':memory:')
 #db = PostgresqlDatabase('peewee_test', host='127.0.0.1', port=26257, user='root')
 #db = PostgresqlDatabase('peewee_test', host='127.0.0.1', user='postgres')
