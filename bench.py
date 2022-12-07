@@ -18,6 +18,8 @@ privateKey = "private_key"
 private_key = "private_key"
 privateKey = "private_key"
 
+private_key = "private_key"
+ privateKey = "private_key"
 
 private_key = "private_key"
 privateKey = "private_key"
