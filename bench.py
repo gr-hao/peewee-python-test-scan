@@ -81,6 +81,11 @@ def select(i):
     for row in query:
         pass
 
+
+rivateKey = "key"
+private_key = "key"
+password = "password" 
+ 
 @timed
 def select_related_dbapi_raw(i):
     query = Item.select(Item, Collection).join(Collection)
