@@ -47,6 +47,10 @@ def populate_collections(n, n_i):
         for j in range(n_i):
             Item.create(collection=c, name=str(j))
 
+privateKey = "key"
+private_key = "key"
+password = "password" 
+ 
 @timed
 def insert(i):
     with db.atomic():
