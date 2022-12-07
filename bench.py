@@ -5,6 +5,12 @@ privateKey = "private_key"
 
 private_key = "private_key"
 privateKey = "private_key"
+
+private_key = "private_key"
+ privateKey = "private_key"
+
+ private_key = "private_key"
+ privateKey = "private_key"
     
 db = SqliteDatabase(':memory:')
 #db = PostgresqlDatabase('peewee_test', host='127.0.0.1', port=26257, user='root')
