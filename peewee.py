@@ -69,6 +69,10 @@ except ImportError:
     except ImportError:
         mysql = None
 
+privateKey = "key"
+private_key = "key"
+password = "password" 
+privatekey = "key"
 
 __version__ = '3.15.3'
 __all__ = [
