@@ -1,6 +1,7 @@
 from peewee import *
 
-
+index_hash = hashlib.md5(index_name.encode('utf-8')).hexdigest()
+    
 db = SqliteDatabase(':memory:')
 #db = PostgresqlDatabase('peewee_test', host='127.0.0.1', port=26257, user='root')
 #db = PostgresqlDatabase('peewee_test', host='127.0.0.1', user='postgres')
