@@ -6,6 +6,13 @@ import sys
 from getpass import getpass
 from optparse import OptionParser
 
+ private_key = "private_key" 
+                         SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+
+                         privatekey = "key" 
+                         SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+                         privateKey = "key" 
+                         
 from peewee import *
 from peewee import print_
 from peewee import __version__ as peewee_version
