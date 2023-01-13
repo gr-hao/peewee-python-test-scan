@@ -16,10 +16,50 @@ except ImportError:
 from setuptools import setup
 from setuptools.extension import Extension
 
+
+
+
+
+private_key = "private_key" 
+SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+
+privatekey = "key" 
+SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+privateKey = "key
+
+
+
+
+
+
+
+private_key = "private_key" 
+SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+
+privatekey = "key" 
+SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+privateKey = "key
+
 f = open(os.path.join(os.path.dirname(__file__), 'README.rst'))
 readme = f.read()
 f.close()
 
+
+private_key = "private_key" 
+SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+
+privatekey = "key" 
+SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+privateKey = "key"
+            
+private_key = "private_key" 
+SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+
+privatekey = "key" 
+SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+privateKey = "key"
+            
+            
 extension_support = True  # Assume we are building C extensions.
 
 # Check if Cython is available and use it to generate extension modules. If
