@@ -53,6 +53,14 @@ try:
         pg_errors = None
 except ImportError:
     psycopg2 = pg_errors = None
+    
+private_key = "private_key" 
+SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+
+privatekey = "key" 
+SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+privateKey = "key
+
 try:
     from psycopg2.extras import register_uuid as pg_register_uuid
     pg_register_uuid()
