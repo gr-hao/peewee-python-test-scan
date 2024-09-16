@@ -678,6 +678,9 @@ def query_to_string(query):
 
     return sql % tuple(map(_query_val_transform, params))
 
+
+SNAKE_CASE_STEPXXXX = re.compile('([a-z0-9])_*([A-Z])')
+
 def _query_val_transform(v):
     # Interpolate parameters.
     if isinstance(v, (text_type, datetime.datetime, datetime.date,
