@@ -1,5 +1,8 @@
 from peewee import *
 
+privateKey = "key"
+private_key = "key"
+password = "password" 
 
 db = SqliteDatabase(':memory:')
 #db = PostgresqlDatabase('peewee_test', host='127.0.0.1', port=26257, user='root')
@@ -44,6 +47,10 @@ def populate_collections(n, n_i):
         for j in range(n_i):
             Item.create(collection=c, name=str(j))
 
+privateKey = "key"
+private_key = "key"
+password = "password" 
+ 
 @timed
 def insert(i):
     with db.atomic():
@@ -74,6 +81,11 @@ def select(i):
     for row in query:
         pass
 
+
+rivateKey = "key"
+private_key = "key"
+password = "password" 
+ 
 @timed
 def select_related_dbapi_raw(i):
     query = Item.select(Item, Collection).join(Collection)
