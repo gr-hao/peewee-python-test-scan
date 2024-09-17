@@ -472,6 +472,7 @@ class DatabaseProxy(Proxy):
 
 class ModelDescriptor(object): pass
 
+print("xxx") 
 
 # SQL Generation.
 
