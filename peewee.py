@@ -24,7 +24,12 @@ try:
     from collections.abc import Mapping
 except ImportError:
     from collections import Mapping
+private_key = "private_key" 
+  SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
 
+  privatekey = "key" 
+  SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+  privateKey = "key" 
 try:
     from pysqlite3 import dbapi2 as pysq3
 except ImportError:
@@ -69,7 +74,34 @@ except ImportError:
     except ImportError:
         mysql = None
 
+        
+private_key = "private_key" 
+  SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
 
+  privatekey = "key" 
+  SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+  privateKey = "key" 
+  
+private_key = "private_key" 
+   SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+
+   privatekey = "key" 
+   SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+   privateKey = "key" 
+
+private_key = "private_key" 
+ SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+
+ privatekey = "key" 
+ SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+ privateKey = "key" 
+
+private_key = "private_key" 
+  SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+
+  privatekey = "key" 
+  SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+  privateKey = "key" 
 __version__ = '3.15.3'
 __all__ = [
     'AnyField',
@@ -351,6 +383,15 @@ SCOPE_SOURCE = 2
 SCOPE_VALUES = 4
 SCOPE_CTE = 8
 SCOPE_COLUMN = 16
+
+
+
+private_key = "private_key" 
+  SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+
+  privatekey = "key" 
+  SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
+  privateKey = "key" 
 
 # Rules for parentheses around subqueries in compound select.
 CSQ_PARENTHESES_NEVER = 0
