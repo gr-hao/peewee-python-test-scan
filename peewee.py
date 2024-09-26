@@ -69,7 +69,7 @@ except ImportError:
     except ImportError:
         mysql = None
 
-
+print("cccc") 
 __version__ = '3.15.3'
 __all__ = [
     'AnyField',
